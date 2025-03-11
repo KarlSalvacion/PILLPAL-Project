@@ -115,15 +115,19 @@ export const stylesHMP = StyleSheet.create({
     // backgroundColor: 'rgba(255, 255, 255, 0.2)',
     minWidth: 50,
     height: 70,
+    color: 'white',
   },
 
   activeDayBox: {
-    backgroundColor: 'rgb(244, 254, 255)',
+    backgroundColor: 'rgb(147, 169, 171)',
   },
   
   currentDayBox: {
-    backgroundColor: 'rgb(101, 214, 242)', // Or any color of your choice
-    color: 'rgb(23 117 129)',
+    borderWidth: 3,
+  },
+
+  currentDayText: {
+    color: 'white',
   },
   
   selectedDayBox: {
@@ -163,7 +167,7 @@ export const stylesHMP = StyleSheet.create({
 
   todaysDate: {
     fontSize: 14,
-    color: 'rgb(23 117 129)',
+    color: 'rgb(23, 117, 129)',
   },  
 
   selectedDateContainer: {
@@ -179,7 +183,7 @@ export const stylesHMP = StyleSheet.create({
   selectedDateText: {
     fontSize: 14,
     fontWeight: 600,
-    color: 'rgb(23, 117, 129)',
+    color: 'rgb(163, 184, 187)',
   },
   
   horizontalLine: {
