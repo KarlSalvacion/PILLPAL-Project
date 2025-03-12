@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { View, Text, TouchableOpacity } from 'react-native';
 import { Feather, FontAwesome5, MaterialCommunityIcons } from '@expo/vector-icons';
-import { stylesHMP } from '../styles components/StylesHomePage';
+import { stylesHMP } from '../styles/StylesHomePage';
 
 const daysOfWeek = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
 
